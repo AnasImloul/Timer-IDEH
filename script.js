@@ -33,7 +33,7 @@ function updateTimer() {
     return;
   }
 
-  date = addSeconds(new Date(globalDate), Math.floor((new Date() - initDate) / 1000));
+  date = addSeconds(new Date(), Math.floor((globalDate - initDate) / 1000));
 
 
   if (date < startDate) {
@@ -179,5 +179,5 @@ async function startTimer() {
 }
 
 
-setInterval(updateTimer, 500);
+setInterval(updateTimer, 10);
 setInterval(blinkTimer, 500);
