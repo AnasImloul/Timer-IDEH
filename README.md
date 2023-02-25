@@ -1,2 +1,2 @@
 # IDEH Countdown
-A web page for IDEH countdown
+A simple web page for IDEH countdown
