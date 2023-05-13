@@ -83,13 +83,13 @@ function endContest() {
   counter = 0;
   hide_counter();
   document.getElementById("description").innerHTML =
-    "the CTF contest has Ended!";
+    "the CP contest has Ended!";
   before = false;
 }
 
 function inContest() {
   document.getElementById("description").innerHTML =
-    "Until the CTF contest ends";
+    "Until the CP contest ends";
   counter = endDate - date;
   counter = Math.floor(counter / 1000);
 
