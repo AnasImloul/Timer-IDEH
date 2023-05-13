@@ -43,13 +43,14 @@ body {
   left: 83%;
   width: 15%;
   transform: translate(-50%, -50%);
+  filter: grayscale(100%) brightness(200%);
 }
 
 .ideh {
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 50%;
-  width: 25%;
+  width: 20%;
   transform: translate(-50%, -50%);
 }
 
