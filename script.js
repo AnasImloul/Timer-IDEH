@@ -119,12 +119,12 @@ function hide_start() {
 }
 
 function show_ideh() {
-  document.getElementById("ideh").style.display = "block";
+  // document.getElementById("ideh").style.display = "block";
   document.getElementById("description").style.display = "block";
 }
 
 function hide_ideh() {
-  document.getElementById("ideh").style.display = "None";
+  // document.getElementById("ideh").style.display = "None";
   document.getElementById("description").style.display = "None";
 }
 
@@ -174,6 +174,8 @@ async function startTimer() {
 
   globalDate = await current_date();
   initDate = new Date();
+
+  console.log(globalDate);
 
   clicked = true;
 }
